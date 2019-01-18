@@ -10,4 +10,18 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require jquery.min
+//= require bootstrap.bundle.min
+//= require jquery.easing.min
+//= require scrollreveal.min
+//= require jquery.magnific-popup.min
+//= require creative.min
+//= require jquery.1.11.1
+//= require bootstrap
+//= require nivo-lightbox
+//= require jqBootstrapValidation
+//= require contact_me
+//= require main
+//= require number_count
+//= require scrollTop
 //= require turbolinks
