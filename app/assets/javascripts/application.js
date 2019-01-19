@@ -13,7 +13,6 @@
 //= require jquery.min
 //= require bootstrap.bundle.min
 //= require jquery.easing.min
-//= require scrollreveal.min
 //= require jquery.magnific-popup.min
 //= require creative.min
 //= require jquery.1.11.1
@@ -23,5 +22,11 @@
 //= require contact_me
 //= require main
 //= require number_count
-//= require scrollTop
+//= scrollTop
+//= require smooth-scroll.polyfills.min
 //= require turbolinks
+
+var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 500,
+	speedAsDuration: true
+});
